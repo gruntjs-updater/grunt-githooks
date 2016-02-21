@@ -1,48 +1,48 @@
 {
-	"name"             : "grunt-githooks",
-	"description"      : "A Grunt plugin to help bind Grunt tasks to Git hooks",
-	"version"          : "0.5.0",
-	"homepage"         : "https://github.com/wecodemore/grunt-githooks",
-	"author"           : {
-		"name" : "Romaric Pascal",
-		"url"  : "http://rhumaric.com"
+	"name": "grunt-githooks",
+	"description": "A Grunt plugin to help bind Grunt tasks to Git hooks",
+	"version": "0.5.0",
+	"homepage": "https://github.com/wecodemore/grunt-githooks",
+	"author": {
+		"name": "Romaric Pascal",
+		"url": "http://rhumaric.com"
 	},
-	"contributors"     : [
+	"contributors": [
 		{
-			"name"  : "Franz Josef Kaiser",
-			"email" : "wecodemore@gmail.com",
-			"url"   : "http://unserkaiser.com"
+			"name": "Franz Josef Kaiser",
+			"email": "wecodemore@gmail.com",
+			"url": "http://unserkaiser.com"
 		},
 		{
-			"name" : "Romaric Pascal",
-			"url"  : "http://rhumaric.com"
+			"name": "Romaric Pascal",
+			"url": "http://rhumaric.com"
 		}
 	],
-	"repository"       : "wecodemore/grunt-githooks",
-	"license"          : "MIT",
-	"main"             : "Gruntfile.js",
-	"engines"          : {
-		"node" : ">= 0.8.0"
+	"repository": "wecodemore/grunt-githooks",
+	"license": "MIT",
+	"main": "Gruntfile.js",
+	"engines": {
+		"node": ">= 0.8.0"
 	},
-	"scripts"          : {
-		"test" : "grunt test"
+	"scripts": {
+		"test": "grunt test"
 	},
-	"devDependencies"  : {
-		"grunt-contrib-jshint"   : "~0.6.0",
-		"grunt-contrib-clean"    : "~0.4.0",
-		"grunt-contrib-nodeunit" : "~0.2.0",
-		"grunt"                  : "~0.4.1",
-		"grunt-contrib-copy"     : "~0.4.1"
+	"devDependencies": {
+		"grunt-contrib-jshint": "~0.6.0",
+		"grunt-contrib-clean": "~0.4.0",
+		"grunt-contrib-nodeunit": "~0.2.0",
+		"grunt": "~0.4.1",
+		"grunt-contrib-copy": "~0.4.1"
 	},
-	"peerDependencies" : {
-		"grunt" : "~0.4.1"
+	"peerDependencies": {
+		"grunt": ">=0.4.0"
 	},
-	"keywords"         : [
+	"keywords": [
 		"gruntplugin",
 		"git",
 		"hook"
 	],
-	"dependencies"     : {
-		"handlebars" : "~1.0.12"
+	"dependencies": {
+		"handlebars": "~1.0.12"
 	}
 }
